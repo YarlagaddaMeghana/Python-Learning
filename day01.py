@@ -42,67 +42,67 @@ print(l)
 l.insert(-100, 'hi')
 print(l)                                           #['hi','a', 'b', 'c', 'd','hi','e']
 
-# #pop()
-# l = [1, 2, 3, 4, 5]
-# a = l.pop()
-# print(a, l)
-# b = l.pop(2)
-# print(b, l)
-# # c = l.pop(7)
-# del l[0]
-# print(l)
+#pop()
+l = [1, 2, 3, 4, 5]
+a = l.pop()
+print(a, l)
+b = l.pop(2)
+print(b, l)
+# c = l.pop(7)
+del l[0]
+print(l)
 
-# # remove()
-# l = [1, 2, 3, 4]
-# a  = l.remove(3)
-# print(a, l)
-# print(l.remove(5))
+# remove()
+l = [1, 2, 3, 4]
+a  = l.remove(3)
+print(a, l)
+print(l.remove(5))
 
-# # clear()  
-# l = [1, 2, 3, 4, 5]
-# l.clear()
-# print(l)
+# clear()  
+l = [1, 2, 3, 4, 5]
+l.clear()
+print(l)
 
-# # reverse() 
-# l = [1, 2, 3, 4, 5]
-# print(id(l))
-# a = l.reverse()
-# print(a, l)
-# print(id(l))
+# reverse() 
+l = [1, 2, 3, 4, 5]
+print(id(l))
+a = l.reverse()
+print(a, l)
+print(id(l))
 
-# # sort()  
-# l = [1,4,2,6,5,3]
-# print(id(l))
-# a = l.sort() 
-# print(a, l)
-# print(id(l))
-# l = [50,10,40,20,30]
-# print(l.sort(reverse=True))
-# print(l)
-
-
-# # index() 
-# l = [1, 2, 1, 4, 6, 1, 7]
-# print(l.index(1))
-# print(l.index(1, 3))
-# # print(l.index(1, 3, 5))
-# # print(l.index(9))
-
-# # count() 
-# l = [1, 2, 1, 4, 1, 6, 7, 1]
-# print(l.count(1))
-# print(l.count(9))
+# sort()  
+l = [1,4,2,6,5,3]
+print(id(l))
+a = l.sort() 
+print(a, l)
+print(id(l))
+l = [50,10,40,20,30]
+print(l.sort(reverse=True))
+print(l)
 
 
-# # index() 
-# l = (1, 2, 1, 4, 6, 1, 7)
-# print(l.index(1))
-# print(l.index(1, 3))
-# # print(l.index(1, 3, 5))
-# # print(l.index(9))
+# index() 
+l = [1, 2, 1, 4, 6, 1, 7]
+print(l.index(1))
+print(l.index(1, 3))
+# print(l.index(1, 3, 5))
+# print(l.index(9))
 
-# # count() 
-# l = (1, 2, 1, 4, 1, 6, 7, 1)
-# print(l.count(1))
-# print(l.count(9))
+# count() 
+l = [1, 2, 1, 4, 1, 6, 7, 1]
+print(l.count(1))
+print(l.count(9))
+
+
+# index() 
+l = (1, 2, 1, 4, 6, 1, 7)
+print(l.index(1))
+print(l.index(1, 3))
+# print(l.index(1, 3, 5))
+# print(l.index(9))
+
+# count() 
+l = (1, 2, 1, 4, 1, 6, 7, 1)
+print(l.count(1))
+print(l.count(9))
 
